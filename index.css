@@ -1,13 +1,33 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: azure;
+
+}
 .outerbox{
-    background-color: aqua;
     width: 100%;
     height:100%;
     display: flex;
+    border: 1px solid #a3a3a3;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
 }
-
 .top{
-    display:flex;
+    display: flex;
+    width: 100%;
     flex-direction: row;
+    border: 1px solid #a3a3a3;
+    padding: 0;
+    margin: 0;
+}
+p{
+padding-left:20px ;
+padding-right: 20px;
+}
+#logo{
+    float: left;
 }
 svg{
     display: flex;
@@ -15,11 +35,71 @@ svg{
     width: 25px;
     height: 25px;
 }
-img{
-    display: flex;
-    justify-content: right;
+#leo{
+    float: right;
     border-radius: 50%;
     width: 50px;
     height:50px;
 }
+li{
+    float: left;
+}
+#sneaker{
+    width: 400px;
+    height: 200px;
+    padding-top: 10%;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+#im{
+    width: 100px;
+    height:100px;
+    border-radius: 10px;
+}
 
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    padding-left: 180px;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.gallery{
+    display: flex;
+    cursor: pointer;
+}
+.right{
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center
+}
+.price{
+    display: flex;
+    flex-direction:row;
+    align-items: center
+
+}
+.price1{
+    margin-right: 10px;
+}
+.disc{
+background-color: rgb(231, 163, 138);
+color: rgb(252, 98, 42);
+padding: 5px;
+border-radius: 5px;
+
+}
+.pastprice{
+    text-decoration-line: line-through;
+    color:#a3a3a3;
+    
+}
